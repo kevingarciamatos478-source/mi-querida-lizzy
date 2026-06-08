@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Querida Lizzy ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- PANTALLA DE INICIO -->
+    <div class="splash-screen" id="splashScreen">
+        <div class="splash-content">
+            <h1 class="splash-title">Hola mi querida Lizzy, esto es para ti ❤️</h1>
+            <div class="typing-animation">
+                <span class="typing-text">Criik amor...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ESCENA PRINCIPAL -->
+    <main class="main-container" id="mainContainer">
+        <!-- FONDO NOCTURNO -->
+        <div class="night-background">
+            <!-- Luna -->
+            <div class="moon"></div>
+            
+            <!-- Estrellas -->
+            <div class="stars-container" id="starsContainer"></div>
+            
+            <!-- Partículas azules flotando -->
+            <div class="particles-container" id="particlesContainer"></div>
+        </div>
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <div class="main-content">
+            <!-- Flor Azul Floreciente -->
+            <div class="flower-section">
+                <svg class="flower-svg" viewBox="0 0 200 200" width="300" height="300">
+                    <!-- Pétalos -->
+                    <ellipse class="petal petal-1" cx="100" cy="60" rx="25" ry="45" fill="#1E90FF" opacity="0.8" />
+                    <ellipse class="petal petal-2" cx="140" cy="80" rx="25" ry="45" fill="#1E90FF" opacity="0.8" />
+                    <ellipse class="petal petal-3" cx="140" cy="140" rx="25" ry="45" fill="#1E90FF" opacity="0.8" />
+                    <ellipse class="petal petal-4" cx="100" cy="160" rx="25" ry="45" fill="#1E90FF" opacity="0.8" />
+                    <ellipse class="petal petal-5" cx="60" cy="140" rx="25" ry="45" fill="#1E90FF" opacity="0.8" />
+                    <ellipse class="petal petal-6" cx="60" cy="80" rx="25" ry="45" fill="#1E90FF" opacity="0.8" />
+                    
+                    <!-- Centro de la flor -->
+                    <circle class="flower-center" cx="100" cy="100" r="20" fill="#00BFFF" />
+                    
+                    <!-- Brillo del centro -->
+                    <circle class="flower-glow" cx="100" cy="100" r="25" fill="none" stroke="#00BFFF" stroke-width="2" opacity="0.6" />
+                </svg>
+            </div>
+
+            <!-- Mensajes Poéticos -->
+            <div class="poems-container">
+                <div class="poem" id="poem-1">Eres la flor que florece bajo la luz de la luna, iluminando cada rincón de mi corazón.</div>
+                <div class="poem" id="poem-2">Como los pétalos que despiertan en la noche, así despierta mi alma cada vez que pienso en ti.</div>
+                <div class="poem" id="poem-3">La energía de la luna guía mis pensamientos hacia ti, mi dulce princesa.</div>
+                <div class="poem" id="poem-4">Tu presencia trae calma a mis días y belleza a mis noches.</div>
+                <div class="poem" id="poem-5">Mi querida Lizzy, en cada estrella encuentro un motivo más para amarte.</div>
+                <div class="poem" id="poem-6">Si la luna pudiera hablar, contaría todas las veces que he pensado en ti.</div>
+                <div class="poem" id="poem-7">Eres la poesía que florece silenciosamente dentro de mi corazón.</div>
+            </div>
+
+            <!-- Mensaje Final -->
+            <div class="final-message" id="finalMessage">
+                <div class="final-message-content">
+                    <h2>Para mi querida Lizzy ❤️</h2>
+                    <p>Gracias por existir.<br>
+                    Gracias por cada sonrisa.<br>
+                    Gracias por cada momento.</p>
+                    <p class="signature">Con amor,<br>Kevin.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
